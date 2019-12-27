@@ -17,12 +17,15 @@ body{
     display: flex;    
     background: #fff;   
     flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
 }
 
 .box{
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    flex: 0 0 200px;
 }
 
 .one{
